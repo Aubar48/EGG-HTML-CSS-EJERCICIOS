@@ -1,0 +1,100 @@
+<!--vamos a crear un formulario para registrar un usuario-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="ej17.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ej14.html">Pagina Tabla</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ej15.html">Pagina Formulario</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Listado de ejercicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ej1.html">ej1</a></li>
+                  <li><a class="dropdown-item" href="ej2.html">ej2</a></li>
+                  <li><a class="dropdown-item" href="ej3.html">ej3</a></li>
+                  <li><a class="dropdown-item" href="ej4.html">ej4</a></li>
+                  <li><a class="dropdown-item" href="ej5.html">ej5</a></li>
+                  <li><a class="dropdown-item" href="ej6.html">ej6</a></li>
+                  <li><a class="dropdown-item" href="ej7.html">ej7</a></li>
+                  <li><a class="dropdown-item" href="ej8.html">ej8</a></li>
+                  <li><a class="dropdown-item" href="ej9.html">ej9</a></li>
+                  <li><a class="dropdown-item" href="ej10.html">ej10</a></li>
+                  <li><a class="dropdown-item" href="ej11.html">ej11</a></li>
+                  <li><a class="dropdown-item" href="ej12.html">ej12</a></li>
+                  <li><a class="dropdown-item" href="ej13.html">ej13</a></li>
+                  <li><a class="dropdown-item" href="ej16.html">ej16</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="jpg/egg.jpg" class="d-block w-100" alt="Imagen de egg">
+            </div>
+        </div>
+    </div>
+    <h1><strong>Registro de usuario</strong></h1>
+    <form action="ruta del metodo que va a manejar la información" method="POST"
+    enctype="multipart/form-data">
+
+    <label><strong>Correo electrónico del usuario</strong> </label> <br>
+    <input type="email"  name="user_email"> <br>
+
+    <label><strong>Nombre del usuario</strong></label> <br>
+    <input type="text" name="nombre"> <br>
+
+    <label><strong>Contraseña del usuario</strong></label> <br>
+    <input type="password" name="contraseña"> <br>
+
+    <label><strong>Fecha de nacimiento del usuario</strong></label> <br>
+    <input type="date" name="fecha"> <br>
+
+    <label><strong>Sexo del usuario</strong></label> <br>
+    <input type="radio" name="sexo" value="Hombre"> <strong>Hombre</strong> <br>
+    <input type="radio" name="sexo" value="Mujer"> <strong>Mujer</strong> <br>
+    <input type="radio" name="sexo" value="sin_genero"> <strong>Prefiero no decir</strong> <br>
+
+    <label><strong>Pais de nacimiento del usuario</strong></label> <br>
+    <select name="pais">
+    <option><strong>Argentina</strong></option>
+    <option><strong>Brasil</strong></option>
+    <option><strong>Chile</strong></option>
+    <option><strong>Uruguay</strong></option>
+    </select>
+<br>
+    <label><strong>Mensaje</strong></label><br>
+    <textarea name="user_message"></textarea><br>
+<br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+</form>
+</body>
+</html>

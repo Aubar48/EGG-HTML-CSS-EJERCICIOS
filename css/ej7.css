@@ -1,0 +1,32 @@
+p {
+  font-size: 1cm;
+  font-family: arial, helvetica;
+  font-weight: normal;
+  text-align: center;
+  color: aquamarine;
+}
+#p2 {
+  color: beige;
+  font-size: 1cm;
+  font-family: arial, helvetica;
+  font-weight: normal;
+  text-align: center;
+}
+h1 {
+  font-size: 1cm;
+  font-family: verdana, arial;
+  text-align: center;
+  background-color: rgb(102, 110, 67);
+}
+h2 {
+  font-size: 1cm;
+  font-family: verdana, arial;
+  text-align: center;
+  background-color: rgb(144, 56, 110);
+}
+
+body {
+  background-color: #15063d;
+  font-family: arial;
+  color: White;
+}

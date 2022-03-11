@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+}
+
+/* link sin visitar */
+a:link {
+  color: red;
+}
+/* link visitado*/
+a:visited {
+  color: #CCC;
+}
+/* mouse sobre el link*/
+a:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+/* link clickeado */
+a:active {
+  color: blue;
+}
