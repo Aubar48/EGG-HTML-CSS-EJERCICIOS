@@ -35,9 +35,11 @@ td strong{
 color: rgb(192, 143, 27) ;
 }
 table, th, td{
+    
     border: 1px solid;
     border-color: black;
     border-collapse: collapse;
+    padding: 0.2em 0.5em 0.2em 0.5em;
 }
 div p{
     color: greenyellow;
